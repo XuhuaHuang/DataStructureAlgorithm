@@ -1,6 +1,12 @@
 # Prerequisites
 *.d
 
+# Project Specified files
+v16/
+.vs/
+*.user
+Debug/
+
 # Compiled Object files
 *.slo
 *.lo
