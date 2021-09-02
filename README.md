@@ -3,5 +3,4 @@ Learning Data Structures and Algorithms in C/C++. This repository aims to be a  
 
 ---
 
-<img src="./logo/CPlusPlus_Logo.png" alt="An image for C++" width="100"/>
-<img src="./logo/Mingw_Logo.png" alt="An image for C++" width="110"/>
+<img src="./logo/CPlusPlus_Logo.png" alt="An image for C++" width="100"/> <img src="./logo/Mingw_Logo.png" alt="An image for C++" width="110"/>
