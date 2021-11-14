@@ -15,9 +15,14 @@ from typing import Any
 
 
 def selection_sort(_list: list[Any]):
-    # Time complexity: O(n^2)
-    # suppose that the first element is the smallest
-    smallest_num_index: int = 0
+    # Algorithm time complexity: O(N^2)
+    # Pseudo code:
+    # Pick an element (cursor), loop through the rest of the list
+    # if there is a smaller element:
+    #     swap the cursor element and the smaller one
+    # Repeat the steps above until there is not any element left (the cursor has reached the end of the list)
+
+    smallest_num_index: int = 0  # suppose that the first element is the smallest
     # loop through the list
     # for each iteration, find the index of the smaller number
     for i in range(len(_list)):
