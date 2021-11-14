@@ -1,4 +1,4 @@
-# Topic: Selection sort algorithm implementation and demostration
+# Topic: Selection sort algorithm implementation and demonstration
 #
 # To run the Python file:
 # $ python --version
@@ -26,10 +26,10 @@ def selection_sort(_list: list[Any]):
     # loop through the list
     # for each iteration, find the index of the smaller number
     for i in range(len(_list)):
-        smallest_num_index = i;
+        smallest_num_index = i  # update the index along with the iteration of the for loop
         for j in range(i+1, len(_list), 1):
             if _list[j] < _list[smallest_num_index]:
-                smallest_num_index = j
+                smallest_num_index = j  # update the index of the smallest number until latest execution
         # if there is indeed a smaller number
         # use the updated index to swap the elements
         if smallest_num_index != i:
@@ -38,12 +38,11 @@ def selection_sort(_list: list[Any]):
     return
 
 
-
 def main():
     to_sort_int: list[int] = [4, 2, 7, 1, 3]
     print("Before calling selection_sort(): ", to_sort_int)
     selection_sort(to_sort_int)
-    print("After calling selction_sort(): ", to_sort_int)
+    print("After calling selection_sort(): ", to_sort_int)
 
     to_sort_char: list[str] = ['a', 's', 'd', 'f', 'b', 'c', 'e']
     print("Before calling selection_sort(): ", to_sort_char)
