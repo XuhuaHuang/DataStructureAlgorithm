@@ -3,6 +3,7 @@
  * @author Xuhua Huang (xuhuahuang0412@gmail.com)
  * @brief Selection sort algorithm implementation and demonstration in C.
  * Time complexity: o(N^2)
+ * Caution: facing random poitner glitches. Waiting to implement in C++.
  * 
  * To compile and run on Windows with Makefile:
  * $ mingw32-make
@@ -21,9 +22,10 @@
 void selection_sort(int* arr) {
     int smallest_num_index = 0; /* Suppose the first element of the array is the smallest. */
     
-    for (int i = 0; i < sizeof(arr); ++i) {
+    for (int i = 0; i < sizeof(arr); i++) {
         smallest_num_index = i; /* Update the index during each iteration. */
-        for (int j = i; j < sizeof(arr); ++j) {
+        /* Loop through the rest of the array. */
+        for (int j = i; j < sizeof(arr); j++) {
             if (arr[j] < arr[smallest_num_index]) {
                 smallest_num_index = j;
             }
@@ -45,7 +47,7 @@ void selection_sort(int* arr) {
 
 void print_array(int* arr) {
     printf("{ ");
-    for (int i = 0; i < sizeof(arr); ++i) {
+    for (int i = 0; i < sizeof(arr); i++) {
         printf("%d ", arr[i]);
     }
     printf("}\n");
