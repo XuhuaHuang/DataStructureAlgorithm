@@ -25,7 +25,7 @@ void selection_sort(int* arr) {
     for (int i = 0; i < sizeof(arr); i++) {
         smallest_num_index = i; /* Update the index during each iteration. */
         /* Loop through the rest of the array. */
-        for (int j = i; j < sizeof(arr); j++) {
+        for (int j = i + 1; j < sizeof(arr); j++) {
             if (arr[j] < arr[smallest_num_index]) {
                 smallest_num_index = j;
             }
