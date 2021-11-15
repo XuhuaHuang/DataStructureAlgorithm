@@ -25,9 +25,12 @@ void bubble_sort(int* arr) {
 
     while (!sorted) {
         sorted = true;
+        /* Loop through the rest of the array. */
         for (int i = 0; i < unsorted_until_index; i++) {
+            /* Compare the elements and determine whether to swap. */
             if (arr[i] > arr[i+1]) {
                 sorted = false;
+                /* Swap the elements. */
                 int temp = arr[i];
                 arr[i] = arr[i+1];
                 arr[i+1] = temp;
@@ -35,6 +38,8 @@ void bubble_sort(int* arr) {
         }
         unsorted_until_index--;
     }
+
+    return; /* Empty return statement for consistency. */
 }
 
 int main(void) {
