@@ -1,4 +1,4 @@
-# Topic: Selection sort algorithm implementation and demonstration
+# Topic: Selection sort algorithm implementation and demonstration in Python.
 #
 # To run the Python file:
 # $ python --version
