@@ -36,7 +36,7 @@ void selection_sort(std::vector<int>& arr) {
             arr[smallest_num_index] = temp;
         }
     }
-    /* Return statement for consistency of the control flow. */
+    /* Empty return statement for consistency of the control flow. */
     return;
 }
 
