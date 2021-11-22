@@ -11,6 +11,22 @@
 
 #include <iostream>
 #include <stdlib.h>
+#include <vector>
+
+void insertion_sort(std::vector<int>& arr) {
+
+    /* Empty return statement for consistency of the control flow. */
+    return;
+}
+
+void print_array(const std::vector<int>& arr) {
+    std::cout << "{ ";
+    for (int i = 0; i < arr.size(); ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << "}" << std::endl;
+    return;
+}
 
 int main(void) {
     
