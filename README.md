@@ -3,11 +3,11 @@ Learning Data Structures and Algorithms in C/C++ with Makefile and Python. This 
 
 ---
 
-<img src="./logo/CPlusPlus_Logo.png" alt="An image for C++" width="100"/> <img src="./logo/Mingw_Logo.png" alt="An image for mingw compiler" width="110"/>
+<img src="Settings/images/cpp_logo.png" alt="An image for C++" width="100"/> <img src="Settings/images/mingw_logo.png" alt="An image for mingw compiler" width="110"/>
 
 ---
 
-## Directory `.\AlgorithmsDemo`
+## `.\Algorithms`
 Contains both implementation and demonstration of popular algorithms.  
 For specific lines of instruction of each source file, consult the documentation section in each individual source code file.
 * Bubble sort
