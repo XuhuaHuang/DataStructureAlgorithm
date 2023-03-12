@@ -7,9 +7,22 @@ Learning Data Structures and Algorithms in C/C++ with Makefile and Python. This 
 
 ---
 
-## `.\Algorithms`
+## `Algorithms`
 Contains both implementation and demonstration of popular algorithms.  
 For specific lines of instruction of each source file, consult the documentation section in each individual source code file.
 * Bubble sort
 * Selection sort
 * Insertion sort
+
+## `DataStructures`
+Contains both implementation and demonstration of popular data structures using trival data types like `int` or `double`.  
+For specific lines of instruction of each source file, consult the documentation section in each individual source code file.
+* Hash table
+* Sequential list
+* Singly linked list
+* Stack
+
+## `GenericDataStructures
+Template implementation of commonly seen data structures in C++ with `CMake` and test cases.
+* Double linked list
+* Linked list
