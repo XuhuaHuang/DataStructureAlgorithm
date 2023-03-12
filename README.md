@@ -22,7 +22,7 @@ For specific lines of instruction of each source file, consult the documentation
 * Singly linked list
 * Stack
 
-## `GenericDataStructures
+## `GenericDataStructures`
 Template implementation of commonly seen data structures in C++ with `CMake` and test cases.
 * Double linked list
 * Linked list
